@@ -1,0 +1,36 @@
+name: portfolio
+description: A portfolio built using Flutter for the web.
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'  # Updated to a more recent version for null safety and better compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.2
+
+  # Add your other dependencies here. For example:
+  # cupertino_icons: ^1.0.2
+  # http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Updated build_runner, check for the latest version on pub.dev
+  build_runner: ^2.1.4
+
+  # Updated build_web_compilers, check for the latest version on pub.dev
+  build_web_compilers: ^3.2.1
+
+  # If you're using Font Awesome, update this dependency to its latest version
+  # font_awesome_flutter: ^9.1.0
+
+flutter:
+  uses-material-design: true
+
+  # Include any assets, fonts, etc. your project needs:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/youtube.png
